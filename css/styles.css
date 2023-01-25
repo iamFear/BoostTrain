@@ -1,14 +1,30 @@
-/*  FONT-SIZES: 12 16 20 25 31 39 49 61 76 95 */
+/*  FONT-SIZES (PX): 12 16 20 25 31 39 49 61 76 95 */
+
+/* - FONT-WEIGHTS:
+DEFAULT: 400
+MEDIUM: 500
+BOLD: 700 */
+
+/* - LINE-HEIGHTS: 
+DEFAULT: 1
+SMALL: 1.05
+MEDIUM: 1.2
+PARAGRAPH DEFAULT: 1.6 */
+
+/* - LETTER-SPACING:
+0.75px
+-0.5px */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 
 :root {
   font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
 }
 
 .container {
@@ -105,7 +121,10 @@
   transition: all 0.3s;
 }
 
-.cta-btn:active,
 .cta-btn:hover {
-  background-color: rgba(15, 15, 15, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cta-btn:active {
+  font-size: 2.1rem;
 }
