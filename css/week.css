@@ -51,6 +51,7 @@
 
 .week-item:hover {
   background-color: #444;
+  transform: translate(0, -5px);
 }
 
 .week-item:active {
