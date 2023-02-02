@@ -122,9 +122,9 @@ PARAGRAPH DEFAULT: 1.6 */
 }
 
 .cta-btn:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .cta-btn:active {
-  font-size: 2.1rem;
+  transform: scale(0.9);
 }
