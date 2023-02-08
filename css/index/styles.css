@@ -5,37 +5,15 @@ DEFAULT: 400
 MEDIUM: 500
 BOLD: 700 */
 
-/* - LINE-HEIGHTS: 
-DEFAULT: 1
-SMALL: 1.05
-MEDIUM: 1.2
-PARAGRAPH DEFAULT: 1.6 */
-
-/* - LETTER-SPACING:
-0.75px
--0.5px */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  font-size: 62.5%;
-  font-family: "Roboto", sans-serif;
-  line-height: 1;
-}
-
-.container {
-  width: 100vw;
-  height: 100vh;
-  /* background-color: #333; */
-}
-
 .back-video {
   position: absolute;
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
   right: 0;
   bottom: 0;
@@ -71,7 +49,7 @@ PARAGRAPH DEFAULT: 1.6 */
 
 .nav-icon {
   color: #f1f3f5;
-  width: 3.6rem;
+  max-width: 3.6rem;
   height: 3.6rem;
 
   transition: all 0.3s;
@@ -106,25 +84,15 @@ PARAGRAPH DEFAULT: 1.6 */
   letter-spacing: 1.2px;
 }
 
-.cta-btn:link,
-.cta-btn:visited {
-  display: inline-block;
-  font-size: 2.2rem;
-  font-weight: 400;
-  color: #f8f9fa;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 1.2rem 2.4rem;
-  box-shadow: inset 0 0 0 1px #f8f9fa;
-  border-radius: 11px;
-
-  transition: all 0.3s;
-}
-
-.cta-btn:hover {
+.btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.cta-btn:active {
-  transform: scale(0.9);
+.btn:active {
+  transform: scale(0.95);
+}
+
+.cta:link,
+.cta:visited {
+  font-size: 2.5rem;
 }
