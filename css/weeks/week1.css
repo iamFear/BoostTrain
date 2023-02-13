@@ -1,0 +1,77 @@
+/* 
+MUSCULAR GROUP COLOR GUIDELINE:
+
+- CHEST #fa5252
+- BACK #fa5252
+- SHOULDERS #fab005
+- TRAPEZIUS #fab005
+- CALVES #339af0
+- TRICEPS #845ef7
+- ABDOMINALS #51cf66
+- QUADRICEPS #339af0
+- GLUTES #339af0
+- HARMSTRINGS #339af0
+- BICEPS #845ef7
+*/
+
+.container {
+  background-color: #111;
+  flex-direction: column;
+}
+
+.programs-title {
+  margin: 5.6rem;
+}
+
+.grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+
+.day-item {
+  height: 25rem;
+  width: 21rem;
+  background-color: #444;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-img {
+  height: 40%;
+  max-width: 100%;
+  background-color: #ccc;
+}
+
+.card-content {
+  height: 60%;
+  max-width: 100%;
+  background-color: #666;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.muscles-list {
+  margin: 1.2rem 0 1.2rem 0;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.muscles-item {
+  padding: 0.6rem 1rem;
+  background-color: #fa5252;
+  border-radius: 1000px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.day-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

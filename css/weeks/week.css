@@ -6,10 +6,6 @@ MEDIUM: 500
 BOLD: 700 */
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   background-color: #111;
 }
 
@@ -18,24 +14,13 @@ BOLD: 700 */
   gap: 5.4rem;
 }
 
-.week-title {
-  font-size: 6.4rem;
-  color: #f8f9fa;
-  letter-spacing: 1.2;
-  text-transform: uppercase;
-}
-
 .weeks-list {
-  list-style: none;
-
-  display: flex;
-  flex-direction: column;
   gap: 3.2rem;
 }
 
 .week-item:link,
 .week-item:visited {
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
   text-transform: none;
 }
 
@@ -47,7 +32,3 @@ BOLD: 700 */
 .week-item:active {
   background-color: #666;
 }
-
-/*
-
-*/
