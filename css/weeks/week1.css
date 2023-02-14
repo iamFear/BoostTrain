@@ -75,3 +75,30 @@ MUSCULAR GROUP COLOR GUIDELINE:
   display: flex;
   align-items: center;
 }
+
+.muscle-red {
+  background-color: #fa5252;
+}
+
+.muscle-yellow {
+  background-color: #fab005;
+}
+
+.muscle-blue {
+  background-color: #339af0;
+}
+
+.muscle-purple {
+  background-color: #845ef7;
+}
+
+.muscle-green {
+  background-color: #51cf66;
+}
+
+.day-title {
+  font-size: 3.2rem;
+  transform: translateY(-25%);
+  text-transform: uppercase;
+  font-weight: 500;
+}
