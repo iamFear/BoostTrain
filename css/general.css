@@ -86,3 +86,115 @@ p {
 .grid {
   display: grid;
 }
+
+/* MUSCLES COLORS  */
+
+.chest {
+  background-color: #fab005;
+}
+
+.back {
+  background-color: #228be6;
+}
+
+.shoulders {
+  background-color: #fa5252;
+}
+
+.trapezius {
+  background-color: #40c057;
+}
+
+.calves {
+  background-color: #ffd43b;
+}
+
+.triceps {
+  background-color: #845ef7;
+}
+
+.abdominals {
+  background-color: #94d82d;
+}
+
+.quadriceps {
+  background-color: #be4bdb;
+}
+
+.glutes {
+  background-color: #4c6ef5;
+}
+
+.harmstrings {
+  background-color: #3bc9db;
+}
+
+.biceps {
+  background-color: #da77f2;
+}
+
+/* WEEK STYLES */
+
+.programs-title {
+  margin: 5.6rem;
+}
+
+.day-item {
+  height: 25rem;
+  width: 21rem;
+  background-color: #444;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  transition: all 0.5s;
+}
+
+.day-item:hover {
+  transform: translateY(-1rem);
+}
+
+.card-img {
+  height: 40%;
+  max-width: 100%;
+  background-color: #ccc;
+}
+
+.card-content {
+  height: 60%;
+  max-width: 100%;
+  background-color: #666;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.muscles-list {
+  margin: 1.2rem 0 1.2rem 0;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.muscles-item {
+  padding: 0.6rem 1rem;
+  border-radius: 1000px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.day-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.day-title {
+  font-size: 3.2rem;
+  transform: translateY(-25%);
+  text-transform: uppercase;
+  font-weight: 500;
+}
