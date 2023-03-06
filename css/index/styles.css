@@ -49,7 +49,7 @@ BOLD: 700 */
 
 .nav-icon {
   color: #f1f3f5;
-  max-width: 3.6rem;
+  width: 3.6rem;
   height: 3.6rem;
 
   transition: all 0.3s;
